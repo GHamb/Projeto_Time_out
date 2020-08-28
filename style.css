@@ -1,0 +1,111 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Merriweather', serif;
+}
+body{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    background-image: url(https://images.unsplash.com/photo-1482775907821-a56ec43344fc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1352&q=80);
+    background-size: cover;
+
+}
+div img{
+    width:35px;
+    margin-left: 5px;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100vw;
+    height: 6vh;
+    background-color: rgb(153, 153, 153);
+    align-items: center;
+    border-bottom: royalblue  solid 1px;
+}
+ nav p{
+     text-align: center;
+     margin-left: 15%;
+     color: #085da7;
+    
+ }
+ nav p:hover{
+    font-size:  25px;
+    transition: all 1s ease;
+
+}
+ nav a{
+     margin: 5px;
+     text-decoration: none;
+     color: black;
+ }
+ nav a:hover{
+    color: dodgerblue;
+}
+ 
+ main{
+     display: flex;
+     flex-direction: row;
+     width: 100vw;
+ }
+ .divs{
+    margin-top:top 10px ; 
+    width: 55%;
+    background-color: rgb(153, 153, 153);
+    border: solid 2px silver;
+    height: 15vh;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.divs:hover{
+    background-color: rgb(122, 119, 119);
+}
+ .divi{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   height: 80vh;
+   justify-content: space-evenly;
+   
+
+   
+ }
+ table td{
+     text-align: center;
+ }
+ footer{
+     border-top: royalblue  solid 1px;
+     display: flex;
+     flex-direction: row;
+     width: 100vw;
+     justify-content: space-evenly;
+     height: 6vh;
+     background-color: rgb(153, 153, 153);
+     align-items: center;
+     
+ }
+ footer a{
+     text-decoration:none;
+     color: black;
+ }
+ footer a:hover{
+    color: dodgerblue;
+}
+@media(max-width: 273px){
+    nav a, nav p {
+      font-size: 10px;
+    }
+  }
+
+
